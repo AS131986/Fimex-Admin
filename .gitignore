@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Temporary / editor files
+*.tmp
+*.swp
+*~
+.~lock.*
+.idea/
+.vscode/
+
+# Large diagnostic / evidence artifacts (binary, not meant for version control)
+evidence/**/*.mp4
+evidence/**/*.mov
+evidence/**/*.webm
+evidence/**/*.har
+evidence/**/*.trace
+evidence/**/*.zip
+
+# Sensitive / local-only material (never commit credentials or session data)
+*.env
+*.env.*
+*.local
+**/secrets.*
+**/*token*
+**/*cookie*
+**/*password*
